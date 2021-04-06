@@ -102,6 +102,10 @@ public class YesilMarket {
 		System.out.println("Mutlu");
 		System.out.println("Ahmet"); //yeni kod
 		System.out.println("Ayşe");
+
 		System.out.println("Akif");
+
+		System.out.println("zeynep");
+
 	}
 }
