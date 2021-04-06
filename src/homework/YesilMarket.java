@@ -99,5 +99,6 @@ public class YesilMarket {
 		for (int i = 0; i < urunler.size(); i++) {
 			System.out.println(" " + i +"\t" + urunler.get(i) + "\t \t   " + fiyatlar.get(i));
 		}
+		System.out.println("Mutlu");
 	}
 }
