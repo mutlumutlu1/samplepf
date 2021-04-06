@@ -106,14 +106,12 @@ public class YesilMarket {
 		System.out.println("Akif");
 
 		System.out.println("zeynep");
-<<<<<<< HEAD
+
 		
 		
 		
 		System.out.println("akahaha");
-=======
-		System.out.println("sarı");
->>>>>>> refs/remotes/origin/master
+	System.out.println("sarı");
 
 	}
 }
