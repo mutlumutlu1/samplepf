@@ -16,33 +16,33 @@ public class YesilMarket {
 	public static double sepetToplam=0;
 	
 	public static void main(String[] args) {
-		/* Yeşil Market alış-veriş programı.
+		/* YeÃ¾il Market alÃ½Ã¾-veriÃ¾ programÃ½.
          * 
-         * 1. Adım: Ürünler ve fiyatları içeren listeleri oluşturunuz.
-         *          No      Ürün         Fiyat
+         * 1. AdÃ½m: ÃœrÃ¼nler ve fiyatlarÃ½ iÃ§eren listeleri oluÃ¾turunuz.
+         *          No      ÃœrÃ¼n         Fiyat
                   ====  =======        =========
                     00   Domates       2.10 TL 
                     01   Patates       3.20 TL
                     02   Biber         1.50 TL
-                    03   Soğan         2.30 TL
-                    04   Havuç         3.10 TL
+                    03   SoÃ°an         2.30 TL
+                    04   HavuÃ§         3.10 TL
                     05   Elma          1.20 TL
                     06   Muz           1.90 TL
-                    07   Çilek         6.10 TL
+                    07   Ã‡ilek         6.10 TL
                     08   Kavun         4.30 TL
-                    09   Üzüm          2.70 TL
+                    09   ÃœzÃ¼m          2.70 TL
                     10   Limon         0.50 TL
                     
-         * 2. Adım: Kullanıcının ürün nosuna göre listeden ürün seçmesini isteyiniz.
-         * 3. Adım: Kaç kg satın almak istediğini sorunuz.
-         * 4. Adım: Alınacak bu ürünü sepete ekleyiniz ve Sepeti yazdırınız.
-         * 5. Başka bir ürün alıp almak istemediğini sorunuz.
-         * 6. Eğer devam etmek istiyorsa yeniden ürün seçme kısmına yönlendiriniz.
-         * 7. Eğer bitirmek istiyorsa ödeme kısmına geçiniz ve ödem sonrasında programı bitirinzi.
+         * 2. AdÃ½m: KullanÃ½cÃ½nÃ½n Ã¼rÃ¼n nosuna gÃ¶re listeden Ã¼rÃ¼n seÃ§mesini isteyiniz.
+         * 3. AdÃ½m: KaÃ§ kg satÃ½n almak istediÃ°ini sorunuz.
+         * 4. AdÃ½m: AlÃ½nacak bu Ã¼rÃ¼nÃ¼ sepete ekleyiniz ve Sepeti yazdÃ½rÃ½nÃ½z.
+         * 5. BaÃ¾ka bir Ã¼rÃ¼n alÃ½p almak istemediÃ°ini sorunuz.
+         * 6. EÃ°er devam etmek istiyorsa yeniden Ã¼rÃ¼n seÃ§me kÃ½smÃ½na yÃ¶nlendiriniz.
+         * 7. EÃ°er bitirmek istiyorsa Ã¶deme kÃ½smÃ½na geÃ§iniz ve Ã¶dem sonrasÃ½nda programÃ½ bitirinzi.
          */
 		Scanner scan = new Scanner(System.in);
-		urunler.addAll(Arrays.asList("Domates","Patates","Biber","Soğan", "Havuc",
-				                     "Elma","Muz","Çilek","Kavun","Üzüm","Limon"));
+		urunler.addAll(Arrays.asList("Domates","Patates","Biber","SoÃ°an", "Havuc",
+				                     "Elma","Muz","Ã‡ilek","Kavun","ÃœzÃ¼m","Limon"));
 		fiyatlar.addAll(Arrays.asList(2.1, 3.2, 1.5, 2.3, 3.1, 1.2, 1.9, 6.1, 4.3, 2.7, 0.5));
 		
 		urunListele();
@@ -100,6 +100,6 @@ public class YesilMarket {
 			System.out.println(" " + i +"\t" + urunler.get(i) + "\t \t   " + fiyatlar.get(i));
 		}
 		System.out.println("Mutlu");
-		System.out.println("Ali");
+		System.out.println("Ahmet"); //yeni kod
 	}
 }
